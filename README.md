@@ -7,39 +7,39 @@ Monitor websites for updates — get notified via Discord, Email, Slack, Telegra
 Ideal for monitoring price changes, content edits, conditional changes and more.
 
 
-[<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png" style="max-width:100%;" alt="Web site page change monitoring"  title="Web site page change monitoring"  />](https://changedetection.io?src=github)
+[<img src="https://raw.githubusercontent.com/dgtlmoon/memento/master/docs/screenshot.png" style="max-width:100%;" alt="Web site page change monitoring"  title="Web site page change monitoring"  />](https://memento.io?src=github)
 
 [![Release Version][release-shield]][release-link] [![Docker Pulls][docker-pulls]][docker-link] [![License][license-shield]](LICENSE.md)
 
-![changedetection.io](https://github.com/dgtlmoon/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master)
+![memento](https://github.com/dgtlmoon/memento/actions/workflows/test-only.yml/badge.svg?branch=master)
 
-[**Get started with website page change monitoring straight away. Don't have time? Try our $8.99/month subscription, use our proxies and support!**](https://changedetection.io) , _half the price of other website change monitoring services!_
+[**Get started with website page change monitoring straight away. Don't have time? Try our $8.99/month subscription, use our proxies and support!**](https://memento.io) , _half the price of other website change monitoring services!_
 
 
 - Chrome browser included.
 - Nothing to install, access via browser login after signup.
 - Super fast, no registration needed setup.
 - Get started watching and receiving website change notifications straight away.
-- See our [tutorials and how-to page for more inspiration](https://changedetection.io/tutorials) 
+- See our [tutorials and how-to page for more inspiration](https://memento/tutorials) 
 
 ### Target specific parts of the webpage using the Visual Selector tool.
 
-Available when connected to a <a href="https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
+Available when connected to a <a href="https://github.com/dgtlmoon/memento/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
 
-[<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/visualselector-anim.gif" style="max-width:100%;" alt="Select parts and elements of a web page to monitor for changes"  title="Select parts and elements of a web page to monitor for changes" />](https://changedetection.io?src=github)
+[<img src="https://raw.githubusercontent.com/dgtlmoon/memento/master/docs/visualselector-anim.gif" style="max-width:100%;" alt="Select parts and elements of a web page to monitor for changes"  title="Select parts and elements of a web page to monitor for changes" />](https://memento?src=github)
 
 ### Easily see what changed, examine by word, line, or individual character.
 
-[<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-diff.png" style="max-width:100%;" alt="Self-hosted web page change monitoring context difference "  title="Self-hosted web page change monitoring context difference " />](https://changedetection.io?src=github)
+[<img src="https://raw.githubusercontent.com/dgtlmoon/memento/master/docs/screenshot-diff.png" style="max-width:100%;" alt="Self-hosted web page change monitoring context difference "  title="Self-hosted web page change monitoring context difference " />](https://memento?src=github)
 
 
 ### Perform interactive browser steps
 
-Fill in text boxes, click buttons and more, setup your changedetection scenario. 
+Fill in text boxes, click buttons and more, setup your memento scenario. 
 
 Using the **Browser Steps** configuration, add basic steps before performing change detection, such as logging into websites, adding a product to a cart, accept cookie logins, entering dates and refining searches.
 
-[<img src="docs/browsersteps-anim.gif" style="max-width:100%;" alt="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more"  title="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more" />](https://changedetection.io?src=github)
+[<img src="docs/browsersteps-anim.gif" style="max-width:100%;" alt="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more"  title="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more" />](https://memento?src=github)
 
 After **Browser Steps** have been run, then visit the **Visual Selector** tab to refine the content you're interested in.
 Requires Playwright to be enabled.
@@ -50,12 +50,12 @@ Enable the _"Re-stock & Price detection for single product pages"_ option to act
 
 Easily organise and monitor prices for products from the dashboard, get alerts and notifications when the price of a product changes or comes back in stock again!
 
-[<img src="docs/restock-overview.png" style="max-width:100%;" alt="Easily keep an eye on product price changes directly from the UI"  title="Easily keep an eye on product price changes directly from the UI" />](https://changedetection.io?src=github)
+[<img src="docs/restock-overview.png" style="max-width:100%;" alt="Easily keep an eye on product price changes directly from the UI"  title="Easily keep an eye on product price changes directly from the UI" />](https://memento?src=github)
 
 Set price change notification parameters, upper and lower price, price change percentage and more.
 Always know when a product for sale drops in price.
 
-[<img src="docs/restock-settings.png" style="max-width:100%;" alt="Set upper lower and percentage price change notification values"  title="Set upper lower and percentage price change notification values" />](https://changedetection.io?src=github)
+[<img src="docs/restock-settings.png" style="max-width:100%;" alt="Set upper lower and percentage price change notification values"  title="Set upper lower and percentage price change notification values" />](https://memento?src=github)
 
 
 
@@ -99,16 +99,16 @@ _Need an actual Chrome runner with Javascript support? We support fetching via W
 - Execute JS before extracting text (Good for logging in, see examples in the UI!)
 - Override Request Headers, Specify `POST` or `GET` and other methods
 - Use the "Visual Selector" to help target specific elements
-- Configurable [proxy per watch](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration)
+- Configurable [proxy per watch](https://github.com/dgtlmoon/memento/wiki/Proxy-configuration)
 - Send a screenshot with the notification when a change is detected in the web page
 
 We [recommend and use Bright Data](https://brightdata.grsm.io/n0r16zf7eivq) global proxy services, Bright Data will match any first deposit up to $150 using our signup link.
 
-Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/changedetection.io/
+Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/memento/
 
 ### Conditional web page changes
 
-Easily [configure conditional actions](https://changedetection.io/tutorial/conditional-actions-web-page-changes), for example, only trigger when a price is above or below a preset amount, or [when a web page includes (or does not include) a keyword](https://changedetection.io/tutorial/how-monitor-keywords-any-website)
+Easily [configure conditional actions](https://memento/tutorial/conditional-actions-web-page-changes), for example, only trigger when a price is above or below a preset amount, or [when a web page includes (or does not include) a keyword](https://memento/tutorial/how-monitor-keywords-any-website)
 
 <img src="./docs/web-page-change-conditions.png" style="max-width:80%;" alt="Conditional web page changes"  title="Conditional web page changes"  />
 
@@ -123,11 +123,11 @@ Includes quick short-cut buttons to setup a schedule for **business hours only**
 
 ### We have a Chrome extension!
 
-Easily add the current web page to your changedetection.io tool, simply install the extension and click "Sync" to connect it to your existing changedetection.io install.
+Easily add the current web page to your memento tool, simply install the extension and click "Sync" to connect it to your existing memento install.
 
-[<img src="./docs/chrome-extension-screenshot.png" style="max-width:80%;" alt="Chrome Extension to easily add the current web-page to detect a change."  title="Chrome Extension to easily add the current web-page to detect a change."  />](https://chromewebstore.google.com/detail/changedetectionio-website/kefcfmgmlhmankjmnbijimhofdjekbop)
+[<img src="./docs/chrome-extension-screenshot.png" style="max-width:80%;" alt="Chrome Extension to easily add the current web-page to detect a change."  title="Chrome Extension to easily add the current web-page to detect a change."  />](https://chromewebstore.google.com/detail/mementoio-website/kefcfmgmlhmankjmnbijimhofdjekbop)
 
-[Goto the Chrome Webstore to download the extension.](https://chromewebstore.google.com/detail/changedetectionio-website/kefcfmgmlhmankjmnbijimhofdjekbop) ( Or check out the [GitHub repo](https://github.com/dgtlmoon/changedetection.io-browser-extension) ) 
+[Goto the Chrome Webstore to download the extension.](https://chromewebstore.google.com/detail/mementoio-website/kefcfmgmlhmankjmnbijimhofdjekbop) ( Or check out the [GitHub repo](https://github.com/dgtlmoon/memento-browser-extension) ) 
 
 ## Installation
 
@@ -141,38 +141,38 @@ $ docker compose up -d
 
 Docker standalone
 ```bash
-$ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name changedetection.io dgtlmoon/changedetection.io
+$ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name memento dgtlmoon/memento
 ```
 
 `:latest` tag is our latest stable release, `:dev` tag is our bleeding edge `master` branch.
 
-Alternative docker repository over at ghcr - [ghcr.io/dgtlmoon/changedetection.io](https://ghcr.io/dgtlmoon/changedetection.io)
+Alternative docker repository over at ghcr - [ghcr.io/dgtlmoon/memento](https://ghcr.io/dgtlmoon/memento)
 
 ### Windows
 
-See the install instructions at the wiki https://github.com/dgtlmoon/changedetection.io/wiki/Microsoft-Windows
+See the install instructions at the wiki https://github.com/dgtlmoon/memento/wiki/Microsoft-Windows
 
 ### Python Pip
 
-Check out our pypi page https://pypi.org/project/changedetection.io/
+Check out our pypi page https://pypi.org/project/memento/
 
 ```bash
-$ pip3 install changedetection.io
-$ changedetection.io -d /path/to/empty/data/dir -p 5000
+$ pip3 install memento
+$ memento -d /path/to/empty/data/dir -p 5000
 ```
 
 Then visit http://127.0.0.1:5000 , You should now be able to access the UI.
 
 _Now with per-site configurable support for using a fast built in HTTP fetcher or use a Chrome based fetcher for monitoring of JavaScript websites!_
 
-## Updating changedetection.io
+## Updating memento
 
 ### Docker
 ```
-docker pull dgtlmoon/changedetection.io
-docker kill $(docker ps -a -f name=changedetection.io -q)
-docker rm $(docker ps -a -f name=changedetection.io -q)
-docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name changedetection.io dgtlmoon/changedetection.io
+docker pull dgtlmoon/memento
+docker kill $(docker ps -a -f name=memento -q)
+docker rm $(docker ps -a -f name=memento -q)
+docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name memento dgtlmoon/memento
 ```
 
 ### docker compose
@@ -181,7 +181,7 @@ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/dat
 docker compose pull && docker compose up -d
 ```
 
-See the wiki for more information https://github.com/dgtlmoon/changedetection.io/wiki
+See the wiki for more information https://github.com/dgtlmoon/memento/wiki
 
 
 ## Filters
@@ -191,7 +191,7 @@ XPath(1.0), JSONPath, jq, and CSS support comes baked in! You can be as specific
 
 ## Notifications
 
-ChangeDetection.io supports a massive amount of notifications (including email, office365, custom APIs, etc) when a web-page has a change detected thanks to the <a href="https://github.com/caronc/apprise">apprise</a> library.
+Memento.io supports a massive amount of notifications (including email, office365, custom APIs, etc) when a web-page has a change detected thanks to the <a href="https://github.com/caronc/apprise">apprise</a> library.
 Simply set one or more notification URL's in the _[edit]_ tab of that watch.
 
 Just some examples
@@ -209,7 +209,7 @@ Just some examples
  
 <a href="https://github.com/caronc/apprise#popular-notification-services">And everything else in this list!</a>
 
-<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-notifications.png" style="max-width:100%;" alt="Self-hosted web page change monitoring notifications"  title="Self-hosted web page change monitoring notifications"  />
+<img src="https://raw.githubusercontent.com/dgtlmoon/memento/master/docs/screenshot-notifications.png" style="max-width:100%;" alt="Self-hosted web page change monitoring notifications"  title="Self-hosted web page change monitoring notifications"  />
 
 Now you can also customise your notification content and use <a target="_new" href="https://jinja.palletsprojects.com/en/3.0.x/templates/">Jinja2 templating</a> for their title and body!
 
@@ -217,11 +217,11 @@ Now you can also customise your notification content and use <a target="_new" hr
 
 Detect changes and monitor data in JSON API's by using either JSONPath or jq to filter, parse, and restructure JSON as needed.
 
-![image](https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-filter-field-example.png)
+![image](https://raw.githubusercontent.com/dgtlmoon/memento/master/docs/json-filter-field-example.png)
 
 This will re-parse the JSON and apply formatting to the text, making it super easy to monitor and detect changes in JSON API results
 
-![image](https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-diff-example.png)
+![image](https://raw.githubusercontent.com/dgtlmoon/memento/master/docs/json-diff-example.png)
 
 ### JSONPath or jq?
 
@@ -229,7 +229,7 @@ For more complex parsing, filtering, and modifying of JSON data, jq is recommend
 
 One big advantage of `jq` is that you can use logic in your JSON filter, such as filters to only show items that have a value greater than/less than etc.
 
-See the wiki https://github.com/dgtlmoon/changedetection.io/wiki/JSON-Selector-Filter-help for more information and examples
+See the wiki https://github.com/dgtlmoon/memento/wiki/JSON-Selector-Filter-help for more information and examples
 
 ### Parse JSON embedded in HTML!
 
@@ -265,15 +265,15 @@ The application also supports notifying you that it can follow this information 
 
 ## Proxy Configuration
 
-See the wiki https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration , we also support using [Bright Data proxy services where possible](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration#brightdata-proxy-support) and [Oxylabs](https://oxylabs.go2cloud.org/SH2d) proxy services.
+See the wiki https://github.com/dgtlmoon/memento/wiki/Proxy-configuration , we also support using [Bright Data proxy services where possible](https://github.com/dgtlmoon/memento/wiki/Proxy-configuration#brightdata-proxy-support) and [Oxylabs](https://oxylabs.go2cloud.org/SH2d) proxy services.
 
 ## Raspberry Pi support?
 
-Raspberry Pi and linux/arm/v6 linux/arm/v7 arm64 devices are supported! See the wiki for [details](https://github.com/dgtlmoon/changedetection.io/wiki/Fetching-pages-with-WebDriver)
+Raspberry Pi and linux/arm/v6 linux/arm/v7 arm64 devices are supported! See the wiki for [details](https://github.com/dgtlmoon/memento/wiki/Fetching-pages-with-WebDriver)
 
 ## Import support
 
-Easily [import your list of websites to watch for changes in Excel .xslx file format](https://changedetection.io/tutorial/how-import-your-website-change-detection-lists-excel), or paste in lists of website URLs as plaintext. 
+Easily [import your list of websites to watch for changes in Excel .xslx file format](https://memento/tutorial/how-import-your-website-change-detection-lists-excel), or paste in lists of website URLs as plaintext. 
 
 Excel import is recommended - that way you can better organise tags/groups of websites and other features.
 
@@ -282,36 +282,36 @@ Excel import is recommended - that way you can better organise tags/groups of we
 
 Full REST API for programmatic management of watches, tags, notifications and more. 
 
-- **[Interactive API Documentation](https://changedetection.io/docs/api_v1/index.html)** - Complete API reference with live testing
+- **[Interactive API Documentation](https://memento/docs/api_v1/index.html)** - Complete API reference with live testing
 - **[OpenAPI Specification](docs/api-spec.yaml)** - Generate SDKs for any programming language
 
 ## Support us
 
-Do you use changedetection.io to make money? does it save you time or money? Does it make your life easier? less stressful? Remember, we write this software when we should be doing actual paid work, we have to buy food and pay rent just like you.
+Do you use memento to make money? does it save you time or money? Does it make your life easier? less stressful? Remember, we write this software when we should be doing actual paid work, we have to buy food and pay rent just like you.
 
 
-Consider taking out an officially supported [website change detection subscription](https://changedetection.io?src=github) , even if you don't use it, you still get the warm fuzzy feeling of helping out the project. (And who knows, you might just use it!)
+Consider taking out an officially supported [website change detection subscription](https://memento?src=github) , even if you don't use it, you still get the warm fuzzy feeling of helping out the project. (And who knows, you might just use it!)
 
 ## Commercial Support
 
-I offer commercial support, this software is depended on by network security, aerospace , data-science and data-journalist professionals just to name a few, please reach out at dgtlmoon@gmail.com for any enquiries, I am more than glad to work with your organisation to further the possibilities of what can be done with changedetection.io
+I offer commercial support, this software is depended on by network security, aerospace , data-science and data-journalist professionals just to name a few, please reach out at dgtlmoon@gmail.com for any enquiries, I am more than glad to work with your organisation to further the possibilities of what can be done with memento
 
 
-[release-shield]: https://img.shields.io:/github/v/release/dgtlmoon/changedetection.io?style=for-the-badge
-[docker-pulls]: https://img.shields.io/docker/pulls/dgtlmoon/changedetection.io?style=for-the-badge
-[test-shield]: https://github.com/dgtlmoon/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master
+[release-shield]: https://img.shields.io:/github/v/release/dgtlmoon/memento?style=for-the-badge
+[docker-pulls]: https://img.shields.io/docker/pulls/dgtlmoon/memento?style=for-the-badge
+[test-shield]: https://github.com/dgtlmoon/memento/actions/workflows/test-only.yml/badge.svg?branch=master
 
-[license-shield]: https://img.shields.io/github/license/dgtlmoon/changedetection.io.svg?style=for-the-badge
-[release-link]: https://github.com/dgtlmoon/changedetection.io/releases
-[docker-link]: https://hub.docker.com/r/dgtlmoon/changedetection.io
+[license-shield]: https://img.shields.io/github/license/dgtlmoon/memento.svg?style=for-the-badge
+[release-link]: https://github.com/dgtlmoon/memento/releases
+[docker-link]: https://hub.docker.com/r/dgtlmoon/memento
 
 ## Commercial Licencing
 
-If you are reselling this software either in part or full as part of any commercial arrangement, you must abide by our COMMERCIAL_LICENCE.md found in our code repository, please contact dgtlmoon@gmail.com and contact@changedetection.io .
+If you are reselling this software either in part or full as part of any commercial arrangement, you must abide by our COMMERCIAL_LICENCE.md found in our code repository, please contact dgtlmoon@gmail.com and contact@memento .
 
 ## Third-party licenses
 
-changedetectionio.html_tools.elementpath_tostring: Copyright (c), 2018-2021, SISSA (Scuola Internazionale Superiore di Studi Avanzati), Licensed under [MIT license](https://github.com/sissaschool/elementpath/blob/master/LICENSE)
+mementoio.html_tools.elementpath_tostring: Copyright (c), 2018-2021, SISSA (Scuola Internazionale Superiore di Studi Avanzati), Licensed under [MIT license](https://github.com/sissaschool/elementpath/blob/master/LICENSE)
 
 ## Contributors
 

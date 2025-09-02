@@ -3,7 +3,7 @@ name: Build and push containers
 on:
   # Automatically triggered by a testing workflow passing, but this is only checked when it lands in the `master`/default branch
 #  workflow_run:
-#    workflows: ["ChangeDetection.io Test"]
+#    workflows: ["Memento.io Test"]
 #    branches: [master]
 #    tags: ['0.*']
 #    types: [completed]
@@ -53,9 +53,9 @@ jobs:
 
       - name: Create release metadata
         run: |
-          # COPY'ed by Dockerfile into changedetectionio/ of the image, then read by the server in store.py
-          echo ${{ github.sha }} > changedetectionio/source.txt
-          echo ${{ github.ref }} > changedetectionio/tag.txt
+          # COPY'ed by Dockerfile into mementoio/ of the image, then read by the server in store.py
+          echo ${{ github.sha }} > mementoio/source.txt
+          echo ${{ github.ref }} > mementoio/tag.txt
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -94,7 +94,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/changedetection.io:dev,ghcr.io/${{ github.repository }}:dev
+            ${{ secrets.DOCKER_HUB_USERNAME }}/memento:dev,ghcr.io/${{ github.repository }}:dev
           platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v8,linux/arm64/v8
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -116,8 +116,8 @@ jobs:
         id: meta
         with:
             images: |
-                ${{ secrets.DOCKER_HUB_USERNAME }}/changedetection.io
-                ghcr.io/dgtlmoon/changedetection.io
+                ${{ secrets.DOCKER_HUB_USERNAME }}/memento
+                ghcr.io/dgtlmoon/memento
             tags: |
                 type=semver,pattern={{version}},value=${{ github.event.release.tag_name }}
                 type=semver,pattern={{major}}.{{minor}},value=${{ github.event.release.tag_name }}

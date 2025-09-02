@@ -1,25 +1,25 @@
 openapi: 3.0.3
 info:
-  title: ChangeDetection.io API
+  title: Memento.io API
   description: |
-    # ChangeDetection.io Web page monitoring and notifications API
+    # Memento.io Web page monitoring and notifications API
     
     REST API for managing Page watches, Group tags, and Notifications.
     
-    changedetection.io can be driven by its built in simple API, in the examples below you will also find `curl` command line and `python` examples to help you get started faster.
+    memento can be driven by its built in simple API, in the examples below you will also find `curl` command line and `python` examples to help you get started faster.
     
     ## Where to find my API key?
     
-    The API key can be easily found under the **SETTINGS** then **API** tab of changedetection.io dashboard.  
+    The API key can be easily found under the **SETTINGS** then **API** tab of memento dashboard.  
     Simply click the API key to automatically copy it to your clipboard.
     
     ![Where to find the API key](./where-to-get-api-key.jpeg)
     
     ## Connection URL
     
-    The API can be found at `/api/v1/`, so for example if you run changedetection.io locally on port 5000, then URL would be `http://localhost:5000/api/v1/watch/cc0cfffa-f449-477b-83ea-0caafd1dc091/history`.
+    The API can be found at `/api/v1/`, so for example if you run memento locally on port 5000, then URL would be `http://localhost:5000/api/v1/watch/cc0cfffa-f449-477b-83ea-0caafd1dc091/history`.
     
-    If you are using the hosted/subscription version of changedetection.io, then the URL is based on your login URL, for example:  
+    If you are using the hosted/subscription version of memento, then the URL is based on your login URL, for example:  
     `https://<your login url>/api/v1/watch/cc0cfffa-f449-477b-83ea-0caafd1dc091/history`
     
     ## Authentication
@@ -30,8 +30,8 @@ info:
     
   version: 0.1.0
   contact:
-    name: ChangeDetection.io
-    url: https://github.com/dgtlmoon/changedetection.io
+    name: Memento.io
+    url: https://github.com/dgtlmoon/memento
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
@@ -51,7 +51,7 @@ servers:
         default: https
       host:
         default: yourdomain.com
-        description: Your changedetection.io host
+        description: Your memento host
 
 security:
   - ApiKeyAuth: []
@@ -104,7 +104,7 @@ tags:
       
   - name: System Information
     description: |
-      Retrieve system status and statistics about your changedetection.io instance, including total watch 
+      Retrieve system status and statistics about your memento instance, including total watch 
       counts, uptime information, and version details.
 
 components:
@@ -114,7 +114,7 @@ components:
       in: header
       name: x-api-key
       description: |
-        API key for authentication. You can find your API key in the changedetection.io dashboard under Settings > API.
+        API key for authentication. You can find your API key in the memento dashboard under Settings > API.
         
         Enter your API key in the "Authorize" button above to automatically populate all code examples.
 

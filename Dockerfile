@@ -44,7 +44,7 @@ RUN --mount=type=cache,target=/tmp/pip-cache \
 
 # Playwright is an alternative to Selenium
 # Excluded this package from requirements.txt to prevent arm/v6 and arm/v7 builds from failing
-# https://github.com/dgtlmoon/changedetection.io/pull/1067 also musl/alpine (not supported)
+# https://github.com/dgtlmoon/memento/pull/1067 also musl/alpine (not supported)
 RUN --mount=type=cache,target=/tmp/pip-cache \
     pip install \
     --cache-dir=/tmp/pip-cache \
@@ -54,7 +54,7 @@ RUN --mount=type=cache,target=/tmp/pip-cache \
 
 # Final image stage
 FROM python:${PYTHON_VERSION}-slim-bookworm
-LABEL org.opencontainers.image.source="https://github.com/dgtlmoon/changedetection.io"
+LABEL org.opencontainers.image.source="https://github.com/dgtlmoon/memento"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libxslt1.1 \
@@ -83,9 +83,9 @@ ENV PYTHONPATH=/usr/local
 EXPOSE 5000
 
 # The actual flask app module
-COPY changedetectionio /app/changedetectionio
+COPY memento /app/memento
 # Starting wrapper
-COPY changedetection.py /app/changedetection.py
+COPY memento.py /app/memento.py
 
 # Github Action test purpose(test-only.yml).
 # On production, it is effectively LOGGER_LEVEL=''.
@@ -96,6 +96,6 @@ ENV LOGGER_LEVEL="$LOGGER_LEVEL"
 ENV LC_ALL=en_US.UTF-8
 
 WORKDIR /app
-CMD ["python", "./changedetection.py", "-d", "/datastore"]
+CMD ["python", "./memento.py", "-d", "/datastore"]
 
 

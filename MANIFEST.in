@@ -1,18 +1,18 @@
-recursive-include changedetectionio/api *
-recursive-include changedetectionio/blueprint *
-recursive-include changedetectionio/content_fetchers *
-recursive-include changedetectionio/conditions *
-recursive-include changedetectionio/model *
-recursive-include changedetectionio/notification *
-recursive-include changedetectionio/processors *
-recursive-include changedetectionio/realtime *
-recursive-include changedetectionio/static *
-recursive-include changedetectionio/templates *
-recursive-include changedetectionio/tests *
-prune changedetectionio/static/package-lock.json
-prune changedetectionio/static/styles/node_modules
-prune changedetectionio/static/styles/package-lock.json
-include changedetection.py
+recursive-include memento/api *
+recursive-include memento/blueprint *
+recursive-include memento/content_fetchers *
+recursive-include memento/conditions *
+recursive-include memento/model *
+recursive-include memento/notification *
+recursive-include memento/processors *
+recursive-include memento/realtime *
+recursive-include memento/static *
+recursive-include memento/templates *
+recursive-include memento/tests *
+prune memento/static/package-lock.json
+prune memento/static/styles/node_modules
+prune memento/static/styles/package-lock.json
+include memento.py
 include requirements.txt
 include README-pip.md
 global-exclude *.pyc
@@ -20,5 +20,5 @@ global-exclude node_modules
 global-exclude venv
 
 global-exclude test-datastore
-global-exclude changedetection.io*dist-info
-global-exclude changedetectionio/tests/proxy_socks5/test-datastore
+global-exclude memento*dist-info
+global-exclude memento/tests/proxy_socks5/test-datastore

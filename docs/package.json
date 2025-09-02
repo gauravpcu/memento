@@ -1,7 +1,7 @@
 {
-  "name": "changedetection-api-docs",
+  "name": "memento-api-docs",
   "version": "1.0.0",
-  "description": "API documentation generation for changedetection.io",
+  "description": "API documentation generation for memento",
   "private": true,
   "scripts": {
     "build-docs": "redocly build-docs api-spec.yaml --output api_v1/index.html"

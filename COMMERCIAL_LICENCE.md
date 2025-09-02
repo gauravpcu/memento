@@ -25,7 +25,7 @@ Licensee agrees to pay Licensor the license fees specified in the ordering docum
 ## 3. Resale Conditions
 Licensee must comply with the following conditions when reselling the Software, whether the software is resold in part or full:
 - Provide end users with access to the source code under the same open-source license conditions as provided by Licensor.
-- Clearly state in all marketing and sales materials that the Software is provided under a commercial license from Licensor, and provide a link back to https://changedetection.io.
+- Clearly state in all marketing and sales materials that the Software is provided under a commercial license from Licensor, and provide a link back to https://memento.
 - Ensure end users are aware of and agree to the terms of the commercial license prior to resale.
 - Do not sublicense or transfer the Software to third parties except as part of an authorized resale activity.
 
@@ -51,4 +51,4 @@ Executing this commercial license does not waive the Limitation of Liability or 
 This Agreement shall be governed by and construed in accordance with the laws of the Czech Republic.
 
 ## Contact Information
-For commercial licensing inquiries, please contact contact@changedetection.io and dgtlmoon@gmail.com.
+For commercial licensing inquiries, please contact contact@memento and dgtlmoon@gmail.com.

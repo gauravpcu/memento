@@ -1,4 +1,4 @@
-# Taken from https://github.com/linuxserver/docker-changedetection.io/blob/main/Dockerfile
+# Taken from https://github.com/linuxserver/docker-memento/blob/main/Dockerfile
 # Test that we can still build on Alpine (musl modified libc https://musl.libc.org/)
 # Some packages wont install via pypi because they dont have a wheel available under this architecture.
 
@@ -28,7 +28,7 @@ RUN \
     nodejs \
     poppler-utils \
     python3 && \
-  echo "**** pip3 install test of changedetection.io ****" && \
+  echo "**** pip3 install test of memento ****" && \
   python3 -m venv /lsiopy  && \
   pip install -U pip wheel setuptools && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.22/ -r /requirements.txt && \

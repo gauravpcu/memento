@@ -1,4 +1,4 @@
-name: ChangeDetection.io App Test
+name: Memento.io App Test
 
 # Triggers the workflow on push or pull request events
 on: [push, pull_request]
